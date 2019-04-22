@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export class Signin extends Component {
+export default class Signin extends Component {
     state = {
             
     }
@@ -10,9 +10,7 @@ export class Signin extends Component {
     handleSubmit = (e) => {
         console.log(e);
     }
-    constructor () {
-        console.log("SignIn Component!!")
-    }
+   
     render() {
         return(
             <div className="container">
